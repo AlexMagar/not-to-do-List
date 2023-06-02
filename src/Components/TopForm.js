@@ -8,30 +8,30 @@ export const TopForm = () => {
     <div>
         <form
           action="javascript:void(0)"
-          class="mt-5 border py-5 p-3 rounded shadow-lg bg-light"
+          className="mt-5 border py-5 p-3 rounded shadow-lg bg-light"
           onsubmit={handleOnSubmit(this)}
         >
-          <div class="row g-1">
-            <div class="col-md-6">
+          <div className="row g-1">
+            <div className="col-md-6">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="category"
                 name="task"
                 required
               />
             </div>
-            <div class="col-md-2">
+            <div className="col-md-2">
               <input
                 type="number"
-                class="form-control"
+                className="form-control"
                 id="category-count"
                 name="hr"
                 required
               />
             </div>
-            <div class="col-md-4 d-grid">
-              <button class="btn btn-primary">+ Add New Task</button>
+            <div className="col-md-4 d-grid">
+              <button className="btn btn-primary">+ Add New Task</button>
             </div>
           </div>
         </form>
